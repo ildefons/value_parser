@@ -26,14 +26,7 @@ module {
   };
   
   func compareMapArrayValue(v1: [(Text,Value)], v2:[(Text,Value)]) {
-    // check different size return #less or #greater
-    // if both size 0 retun equal
-    // if same size, 
-    //    compare first elements
-    //    if first elements equal check recursively rest of array
-    //    else return the compareArrayValue results on the rest of the array
-    //         let v1c = Array.slice<Value>(v1, 1, v1.size());
-    //         let v2c = Array.slice<Value>(v2, 1, v2.size());
+    //
   };
   
   func compareArrayValue(v1: [Value], v2:[Value]) {
