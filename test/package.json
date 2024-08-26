@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "test": "./build.sh && jest -c ./jest.config.ts",
-    "test:basic": "NO_MOTOKO_OUTPUT=true jest -c ./jest.config.ts -t 'Basic'",
+    "test:basic": "jest -c ./jest.config.ts -t 'Basic'",
     "test:ledger": "NO_MOTOKO_OUTPUT=true jest -c ./jest.config.ts -t 'Ledger'",
     "test:delta": "NO_MOTOKO_OUTPUT=true jest -c ./jest.config.ts -t 'Delta'",
     "test:delta:out": "jest -c ./jest.config.ts -t 'Delta'",

@@ -49,8 +49,9 @@ describe('Basic', () => {
 
     it('tests', async () => {
       let r = await can.test();
+      await passTime(50);
       expect(r).toBe(5n);
-    });
+    },60000);
 
     // it('tests2',  () => {
     //   let r = can.set_ledger_canister();
